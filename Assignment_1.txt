@@ -1,0 +1,24 @@
+                                      APPROACH For Git
+
+1. Create a new folder named hello-git at your favorite location in your system. And navigate to that folder using terminal/cmd/git Bash.
+ 
+2. In your terminal/cmd/git Bash execute following command: 
+git init 
+
+3. Now create a new file git-commands.txt inside hello-git folder (repository) and open it in a text editor (Visual Studio Code) is recommended.
+ 
+4. Write git commands and their function in that file and save it.
+ 
+5. Go back to your terminal/cmd/git Bash and execute following commands: 
+git add . 
+git commit -m "my first git commit." 
+
+6. You completed half of your task. Now go to GitHub and create a new account (If you don’t have one) or login (If you already have account) 
+
+7. Create a new project/repository at GitHub named hello-git and copy the address of newly created project/repository.
+ 
+8. Come back to your terminal/cmd/git Bash again and execute following command: 
+git remote add origin "your remote repo address here".
+
+9. And finally upload your project/repository to GitHub by executing following command: 
+git push origin master
